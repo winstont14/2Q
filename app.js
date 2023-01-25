@@ -17,7 +17,7 @@ function processQuestionnaire()
                     swal("ไม่เป็นโรคซึมเศร้า","แปลผลสำเร็จ","success");
                 } 
                 else{
-                    swal("“มีแนวโน้มที่จะเป็นโรคซึมเศร้า”","แปลผลสำเร็จ","success")
+                    swal("“มีแนวโน้มเสี่ยงที่จะเป็นโรคซึมเศร้า”","แปลผลสำเร็จ","success")
                 
                 }
             document.getElementById("processQuestionnaire").innerHTML = "thankyou";
